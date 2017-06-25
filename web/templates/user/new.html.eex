@@ -1,0 +1,2 @@
+<%= render "form.html", changeset: @changeset,
+                        path: user_path(@conn, :create) %>
